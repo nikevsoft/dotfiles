@@ -118,5 +118,10 @@ fi
 # dracula dircolors
 eval $(dircolors $HOME/.dir_colors/dircolors)
 
+# set default editor
+export VISUAL=nvim
+export EDITOR=$VISUAL
+export SUDOEDITOR=$VISUAL
+
 # starship
 eval "$(starship init bash)"
