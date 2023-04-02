@@ -123,5 +123,8 @@ export VISUAL=nvim
 export EDITOR=$VISUAL
 export SUDOEDITOR=$VISUAL
 
+# fnm
+eval "$(fnm env --use-on-cd)"
+
 # starship
 eval "$(starship init bash)"
