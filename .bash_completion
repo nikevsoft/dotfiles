@@ -1,0 +1,3 @@
+for completion in ~/.bash_completion.d/* ; do
+  . $completion
+done
