@@ -26,4 +26,8 @@ if [ -d "$HOME/.local/bin" ]; then
 	PATH="$HOME/.local/bin:$PATH"
 fi
 
+# cargo
 . "$HOME/.cargo/env"
+
+# nix
+export LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
