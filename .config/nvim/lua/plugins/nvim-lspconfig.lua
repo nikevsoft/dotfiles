@@ -42,6 +42,8 @@ return {
           workingDirectory = { mode = "auto" },
         },
       },
+
+      tailwindcss = {},
     },
 
     setup = {
