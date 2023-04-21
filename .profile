@@ -30,5 +30,5 @@ fi
 . "$HOME/.cargo/env"
 
 # nix
-export LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
-export NIX_PATH=${NIX_PATH:+$NIX_PATH:}$HOME/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/channels
+# export LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+# export NIX_PATH=${NIX_PATH:+$NIX_PATH:}$HOME/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/root/channels
