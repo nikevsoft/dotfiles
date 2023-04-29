@@ -120,5 +120,8 @@ export VISUAL=nvim
 export EDITOR=$VISUAL
 export SUDOEDITOR=$VISUAL
 
+# asdf
+. /opt/asdf-vm/asdf.sh
+
 # starship
 eval "$(starship init bash)"
