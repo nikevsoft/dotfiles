@@ -63,6 +63,22 @@ yay -S tmux-plugin-manager
 ./usr/share/tmux-plugin-manager/scripts/install_plugins.sh
 ```
 
+## Terminal shortcut 
+| Key      | Value         |
+|----------|:-------------:|
+| Name     | Gnome Console |
+| Command  | kgx           |
+| Shortcut | Super + T     |
+
+## Gnome Viewers
+### Also allows for thumbnails when viewing from Nautilus
+- Gthumb for pictures
+- Totem for videos
+- Evince for documents
+```
+    yay -S gthumb totem evince
+```
+
 ## Other useful commands
 - Disable the bell for gnome kgx console
 ```
@@ -75,9 +91,3 @@ gsettings set org.gnome.desktop.wm.preferences visual-bell false
 gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 ```
 
-## Terminal shortcut 
-| Key      | Value         |
-|----------|:-------------:|
-| Name     | Gnome Console |
-| Command  | kgx           |
-| Shortcut | Super + T     |
