@@ -6,11 +6,16 @@
 - Icons: Nordzy Dark
 - Fonts: Jetbrains Mono Nerd Font
 
-## Shell Prompt
-- Starship
+## Starship
+- Configure the `starship.toml` to make changes
 
 ## Editor
 - Neovim
 
+## Tmux
+- Archlinux users should run the script below to initialize TPM
+    > /usr/share/tmux-plugin-manager/scripts/install_plugins.sh
+
 ## Usage
-    stow .
+- Inside the `.dotfiles` run the command to perform symlinks
+    > stow .
