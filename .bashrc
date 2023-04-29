@@ -115,9 +115,6 @@ if ! shopt -oq posix; then
 	fi
 fi
 
-# dracula dircolors
-eval $(dircolors $HOME/.dir_colors/dircolors)
-
 # set default editor
 export VISUAL=nvim
 export EDITOR=$VISUAL
