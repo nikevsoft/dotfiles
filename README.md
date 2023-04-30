@@ -1,8 +1,9 @@
 # Linux Configuration
-- My linux configuration using Arch linux and Gnome
 
 ## Gnome Theme
+
 - Configure theme using `gnome-tweaks`
+
 ```
 yay -S gtk-themes-extra \
         gtk-engine-murrine \
@@ -17,21 +18,27 @@ yay -S gtk-themes-extra \
 ```
 
 ## Gnome Extensions
+
 - User Themes
 - Dash to Dock
+- Hide Activities Button
 
 ## Tiling Manager
-- Pop OS
+
+- Pop Shell
+
 ```
 yay -S gnome-shell-extension-pop-shell
 ```
 
-- After install run the configure script to setup shortcuts
+- After installing, run the configure script to setup shortcuts
+
 ```
 ./configure-pop-shell.sh
 ```
 
 ## Stow
+
 ```
 yay -S stow
 ```
@@ -43,16 +50,21 @@ stow .
 ```
 
 ## Starship
+
 ```
-yay -S starship 
+yay -S starship
 ```
 
 ## Editor
+
+- Neovim with lazyvim base
+
 ```
-yay -S neovim 
+yay -S neovim
 ```
 
 ## Tmux
+
 ```
 yay -S tmux-plugin-manager
 ```
@@ -63,31 +75,37 @@ yay -S tmux-plugin-manager
 ./usr/share/tmux-plugin-manager/scripts/install_plugins.sh
 ```
 
-## Terminal shortcut 
-| Key      | Value         |
-|----------|:-------------:|
-| Name     | Gnome Console |
-| Command  | kgx           |
-| Shortcut | Super + T     |
+## Terminal shortcut
+
+| Key      |     Value      |
+| -------- | :------------: |
+| Name     | Gnome Terminal |
+| Command  | gnome-terminal |
+| Shortcut |   Super + T    |
 
 ## Gnome Viewers
-### Also allows for thumbnails when viewing from Nautilus
+
+Also enables thumbnails when viewing from Nautilus.
+
 - Gthumb for pictures
 - Totem for videos
 - Evince for documents
+
 ```
     yay -S gthumb totem evince
 ```
 
 ## Other useful commands
+
 - Disable the bell for gnome kgx console
+
 ```
 gsettings set org.gnome.desktop.wm.preferences audible-bell false \
 gsettings set org.gnome.desktop.wm.preferences visual-bell false
 ```
 
 - Disable dash-to-dock hotkeys
+
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 ```
-
