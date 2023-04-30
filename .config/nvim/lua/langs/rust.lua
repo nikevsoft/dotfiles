@@ -43,13 +43,13 @@ return {
       -- make sure mason installs the server
       setup = {
         rust_analyzer = function(_, opts)
-          require("lazyvim.util").on_attach(function(client, buffer)
+          -- require("lazyvim.util").on_attach(function(client, buffer)
             -- stylua: ignore
-            if client.name == "rust_analyzer" then
-              vim.keymap.set("n", "K", "<cmd>RustHoverActions<cr>", { buffer = buffer, desc = "Hover Actions (Rust)" })
-			  vim.keymap.set("n", "<leader>cR", "<cmd>RustCodeAction<cr>", { buffer = buffer, desc = "Code Action (Rust)" })
-            end
-          end)
+            -- if client.name == "rust_analyzer" then
+            -- vim.keymap.set("n", "K", "<cmd>RustHoverActions<cr>", { buffer = buffer, desc = "Hover Actions (Rust)" })
+            -- vim.keymap.set("n", "<leader>cR", "<cmd>RustCodeAction<cr>", { buffer = buffer, desc = "Code Action (Rust)" })
+            -- end
+          -- end)
           local mason_registry = require("mason-registry")
           -- rust tools configuration for debugging support
           local codelldb = mason_registry.get_package("codelldb")
