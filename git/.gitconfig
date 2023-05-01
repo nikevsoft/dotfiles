@@ -1,14 +1,13 @@
 [user]
-	name = Kevin
-	email = jkevincodes@gmail.com
+  name = Kevin
+  email = jkevincodes@gmail.com
 
 [color]
-	ui = true
+  ui = true
 
 [core]
-	excludefiles = ~/.gitignore-global
-	editor = nvim
-  pager = delta
+  excludefiles = ~/.gitignore-global
+  editor = nvim
 
 [difftool]
   prompt = true
@@ -23,17 +22,8 @@
 [diff]
   tool = nvimdiff
 
-[interactive]
-  diffFilter = delta --color-only
-
-[delta]
-  navigate = true
-  line-numbers = true
-  features = side-by-side line-numbers decorations
-  light = false
-
 [credential "https://github.com"]
-	helper = !/usr/bin/gh auth git-credential
+  helper = !/usr/bin/gh auth git-credential
 
 [credential "https://gist.github.com"]
-	helper = !/usr/bin/gh auth git-credential
+  helper = !/usr/bin/gh auth git-credential
