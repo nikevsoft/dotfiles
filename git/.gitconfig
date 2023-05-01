@@ -1,0 +1,39 @@
+[user]
+	name = Kevin
+	email = jkevincodes@gmail.com
+
+[color]
+	ui = true
+
+[core]
+	excludefiles = ~/.gitignore-global
+	editor = nvim
+  pager = delta
+
+[difftool]
+  prompt = true
+
+[difftool "nvimdiff"]
+  cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+
+[merge]
+  tool = nvimdiff
+  conflictstyle = diff3
+
+[diff]
+  tool = nvimdiff
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+  line-numbers = true
+  features = side-by-side line-numbers decorations
+  light = false
+
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = !/usr/bin/gh auth git-credential
