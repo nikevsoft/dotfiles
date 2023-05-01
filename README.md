@@ -1,6 +1,6 @@
 # Linux Configuration
 
-## Gnome Theme
+## Gtk Catppuccin Theme
 
 - Configure theme using `gnome-tweaks`
 
@@ -20,8 +20,8 @@ yay -S gtk-themes-extra \
 ## Gnome Extensions
 
 - User Themes
-- Dash to Dock
 - Hide Activities Button
+- Dash to Dock
 
 ## Tiling Manager
 
@@ -31,7 +31,7 @@ yay -S gtk-themes-extra \
 yay -S gnome-shell-extension-pop-shell
 ```
 
-- After installing, run the configure script to setup shortcuts
+After installing, run `configure-pop-shell.sh` to setup shortcuts
 
 ```
 ./configure-pop-shell.sh
@@ -43,10 +43,10 @@ yay -S gnome-shell-extension-pop-shell
 yay -S stow
 ```
 
-- Inside the `.dotfiles` run the command to perform symlinks
+Inside the `.dotfiles` run the command to perform symlinks
 
 ```
-stow .
+stow bash git starship tmux nvim
 ```
 
 ## Starship
@@ -56,8 +56,6 @@ yay -S starship
 ```
 
 ## Editor
-
-- Neovim with lazyvim base
 
 ```
 yay -S neovim
@@ -69,7 +67,7 @@ yay -S neovim
 yay -S tmux-plugin-manager
 ```
 
-- Manually initialize tpm
+Manually initialize tpm
 
 ```
 ./usr/share/tmux-plugin-manager/scripts/install_plugins.sh
@@ -97,15 +95,16 @@ Also enables thumbnails when viewing from Nautilus.
 
 ## Other useful commands
 
-- Disable the bell for gnome kgx console
+### Disable terminal bell for gnome `kgx console`
 
 ```
 gsettings set org.gnome.desktop.wm.preferences audible-bell false \
 gsettings set org.gnome.desktop.wm.preferences visual-bell false
 ```
 
-- Disable dash-to-dock hotkeys
+## Extra
 
-```
-gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
-```
+### Dash-to-dock
+
+Dash to Dock hotkeys overrides the pop-shell `<Super>q`.
+Disable this by going to Extensions Settings > Behaviours > Toggle use shortcut keys
