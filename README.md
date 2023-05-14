@@ -5,19 +5,10 @@
 - Configure theme using `gnome-tweaks`
 
 ```
-yay -S gtk-themes-extra \
-        gtk-engine-murrine \
-        catppuccin-gtk-theme-mocha \
-        catppuccin-gtk-theme-macchiato \
-        catppuccin-gtk-theme-frappe \
-        catppuccin-gtk-theme-latte \
-        nordzy-icon-theme \
-        nordzy-cursors \
-        nerd-fonts-meta \
-        apple-fonts \
+yay -S gnome-themes-extra gtk-engine-murrine gnome-browser-connector catppuccin-gtk-theme-mocha catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte nordzy-icon-theme nordzy-cursors nerd-fonts-meta apple-fonts 
 ```
 
-## Gnome Extensions
+#  Gnome Extensions
 
 - User Themes
 - Hide Activities Button
@@ -70,7 +61,7 @@ yay -S tmux-plugin-manager
 Manually initialize tpm
 
 ```
-./usr/share/tmux-plugin-manager/scripts/install_plugins.sh
+cd /usr/share/tmux-plugin-manager/scripts/ && ./install_plugins.sh
 ```
 
 ## Terminal shortcut
@@ -90,7 +81,7 @@ Also enables thumbnails when viewing from Nautilus.
 - Evince for documents
 
 ```
-    yay -S gthumb totem evince
+yay -S gthumb totem evince
 ```
 
 ## Other useful commands
@@ -98,7 +89,7 @@ Also enables thumbnails when viewing from Nautilus.
 ### Disable terminal bell for gnome `kgx console`
 
 ```
-gsettings set org.gnome.desktop.wm.preferences audible-bell false \
+gsettings set org.gnome.desktop.wm.preferences audible-bell false
 gsettings set org.gnome.desktop.wm.preferences visual-bell false
 ```
 
