@@ -108,6 +108,7 @@ shopt -s cdable_vars
 
 # Examples:
 export dotfiles="$HOME/.dotfiles"
+export dev="$HOME/Development"
 
 ## PATH
 
