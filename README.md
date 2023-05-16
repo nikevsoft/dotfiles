@@ -5,10 +5,10 @@
 - Configure theme using `gnome-tweaks`
 
 ```
-yay -S gnome-themes-extra gtk-engine-murrine gnome-browser-connector catppuccin-gtk-theme-mocha catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte nordzy-icon-theme nordzy-cursors nerd-fonts-meta apple-fonts 
+yay -S gnome-themes-extra gtk-engine-murrine gnome-browser-connector catppuccin-gtk-theme-frappe nordzy-icon-theme nordzy-cursors nerd-fonts-meta apple-fonts 
 ```
 
-#  Gnome Extensions
+##  Gnome Extensions
 
 - User Themes
 - Hide Activities Button
@@ -99,3 +99,10 @@ gsettings set org.gnome.desktop.wm.preferences visual-bell false
 
 Dash to Dock hotkeys overrides the pop-shell `<Super>q`.
 Disable this by going to Extensions Settings > Behaviours > Toggle use shortcut keys
+
+### Dconf-editor
+Use to edit gnome settings with a GUI
+
+```
+yay -S dconf-editor
+```
