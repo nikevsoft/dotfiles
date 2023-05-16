@@ -32,7 +32,7 @@ PROMPT_DIRTRIM=2
 bind Space:magic-space
 
 # Turn on recursive globbing (enables ** to recurse all directories)
-shopt -s globstar 2>/dev/null
+shopt -s globstar
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
@@ -79,7 +79,7 @@ HISTTIMEFORMAT='%F %T '
 
 # Record each line of history right away
 # instead of at the end of the session
-# PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
 
 # Enable incremental history search with up/down arrows (also Readline goodness)
 # Learn more about this here: http://codeinthehole.com/writing/the-most-important-command-line-tip-incremental-history-searching-with-inputrc/
@@ -128,6 +128,9 @@ fi
 export VISUAL=nvim
 export EDITOR=$VISUAL
 export SUDOEDITOR=$VISUAL
+
+# Enable vim mode
+set -o vi
 
 ## OTHER
 
