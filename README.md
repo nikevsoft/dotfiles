@@ -93,6 +93,16 @@ gsettings set org.gnome.desktop.wm.preferences audible-bell false
 gsettings set org.gnome.desktop.wm.preferences visual-bell false
 ```
 
+### Disable switch monitor configurations <Super>p
+Remove shortcut
+```
+gsettings set org.gnome.mutter.keybindings switch-monitor "[]"
+```
+Restore shortcut
+```
+gsettings set org.gnome.mutter.keybindings switch-monitor "['<Super>p']"
+```
+
 ## Extra
 
 ### Dash-to-dock
