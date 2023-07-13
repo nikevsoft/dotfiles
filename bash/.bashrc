@@ -150,3 +150,6 @@ esac
 
 # starship
 eval "$(starship init bash)"
+
+# direnv
+eval "$(direnv hook bash)"
