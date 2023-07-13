@@ -123,6 +123,10 @@ if [ -d "$HOME/.local/bin" ]; then
 	pathadd "$HOME/.local/bin"
 fi
 
+if [ -d "$HOME/.cargo/bin" ]; then
+	pathadd "$HOME/.cargo/bin"
+fi
+
 ## EDITOR
 
 export VISUAL=nvim
