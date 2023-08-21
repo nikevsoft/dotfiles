@@ -1,11 +1,15 @@
-# get editor completions based on the config schema
+# Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
 add_newline = false
 
 [character]
 success_symbol = '[➜](bold green)'
-error_symbol = '[➜](bold red)'
+error_symbol = '[✗](bold red)'
+vimcmd_symbol = '[](bold green)'
+vimcmd_replace_one_symbol = '[](bold purple)'
+vimcmd_replace_symbol = '[](bold purple)'
+vimcmd_visual_symbol =  '[](bold yellow)'
 
 [aws]
 symbol = "  "
@@ -50,10 +54,13 @@ symbol = " "
 symbol = " "
 
 [haxe]
-symbol = "⌘ "
+symbol = " "
 
 [hg_branch]
 symbol = " "
+
+[hostname]
+ssh_symbol = " "
 
 [java]
 symbol = " "
@@ -67,8 +74,11 @@ symbol = " "
 [memory_usage]
 symbol = "󰍛 "
 
+[meson]
+symbol = "󰔷 "
+
 [nim]
-symbol = " "
+symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
@@ -77,10 +87,12 @@ symbol = " "
 symbol = " "
 
 [os.symbols]
+Alpaquita = " "
 Alpine = " "
 Amazon = " "
 Android = " "
 Arch = " "
+Artix = " "
 CentOS = " "
 Debian = " "
 DragonFly = " "
@@ -90,9 +102,10 @@ Fedora = " "
 FreeBSD = " "
 Garuda = "󰛓 "
 Gentoo = " "
-HardenedBSD = "󰣠 "
-Illumos = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
 Linux = " "
+Mabox = " "
 Macos = " "
 Manjaro = " "
 Mariner = " "
@@ -100,24 +113,31 @@ MidnightBSD = " "
 Mint = " "
 NetBSD = " "
 NixOS = " "
-OpenBSD = " "
+OpenBSD = "󰈺 "
 openSUSE = " "
-Pop = " "
+OracleLinux = "󰌷 "
+Pop = " "
 Raspbian = " "
 Redhat = " "
 RedHatEnterprise = " "
-Redox = " "
-Solus = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
 SUSE = " "
 Ubuntu = " "
 Unknown = " "
-Windows = "󰖳 "
+Windows = "󰍲 "
 
 [package]
 symbol = "󰏗 "
 
+[pijul_channel]
+symbol = " "
+
 [python]
 symbol = " "
+
+[rlang]
+symbol = "󰟔 "
 
 [ruby]
 symbol = " "
@@ -127,6 +147,3 @@ symbol = " "
 
 [scala]
 symbol = " "
-
-[spack]
-symbol = "🅢 "
