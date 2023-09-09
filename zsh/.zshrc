@@ -31,3 +31,4 @@ source $ZSH/oh-my-zsh.sh
 alias ranger=". ranger"
 
 eval "$(starship init zsh)"
+eval "$(fnm env --use-on-cd)"
