@@ -16,7 +16,8 @@ return {
         end,
       },
       integrations = {
-        -- aerial = true,
+        aerial = true,
+        harpoon = true,
       },
     },
   },
