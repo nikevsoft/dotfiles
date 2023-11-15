@@ -4,20 +4,24 @@ return {
     name = "catppuccin",
     opts = {
       transparent_background = true,
-      term_colors = true,
       highlight_overrides = {
         all = function()
-          local active_bg = C.mantle
-          -- local inactive_bg = C.base
-
+          C = require("catppuccin.palettes").get_palette("frappe")
           return {
-            NotifyBackground = { bg = active_bg },
+            NotifyBackground = { bg = C.base },
+            NormalFloat = { bg = C.base },
+            FloatShadow = { bg = C.base },
+            FloatShadowThrough = { bg = C.base },
           }
         end,
       },
       integrations = {
         aerial = true,
         harpoon = true,
+        navic = {
+          enabled = true,
+          custom_bg = "NONE",
+        },
       },
     },
   },
@@ -26,7 +30,6 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin-frappe",
-      -- colorscheme = "monokai-pro",
     },
   },
 }
