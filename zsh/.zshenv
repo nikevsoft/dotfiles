@@ -5,7 +5,6 @@ export PATH
 # default apps
 export BROWSER="firefox"
 export EDITOR="nvim"
-export FILE="nvim"
 
 # lf icons
 export LF_ICONS="\
@@ -171,3 +170,4 @@ ex=:\
 *.nix=:\
 "
 
+. "$HOME/.cargo/env"
