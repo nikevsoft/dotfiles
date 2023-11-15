@@ -1,13 +1,26 @@
-theme = "catppuccin_frappe"
+theme = "base16_transparent"
 
 [editor]
 line-number = "relative"
-
-[editor.lsp]
-display-messages = true
-display-inlay-hints = true
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = false
+
+[keys.normal]
+X = ["extend_line_up", "extend_to_line_bounds"]
+A-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+
+[keys.select]
+X = ["extend_line_up", "extend_to_line_bounds"]
+A-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+A-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]

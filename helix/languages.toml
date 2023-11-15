@@ -1,0 +1,27 @@
+# [language-server.tailwindcss]
+# command = "tailwindcss-language-server"
+# args = ["--stdio"]
+#
+# [language-server.vscode-json]
+# command = "vscode-json-language-server"
+# args = ["--stdio"]
+#
+# [[language]]
+# name = "jsx"
+# language-servers = [ "tailwindcss", "typescript-language-server" ]
+#
+# [[language]]
+# name = "tsx"
+# language-servers = [ "tailwindcss", "typescript-language-server" ]
+#
+# [[language]]
+# name = "html"
+# language-servers = [ "tailwindcss", "vscode-html-language-server" ]
+#
+# [[language]]
+# name = "json"
+# language-servers = ["vscode-json", "typescript-language-server"]
+#
+# [[language]]
+# name = "svelte"
+# language-servers = [ "tailwindcss", "svelteserver" ]
