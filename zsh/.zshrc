@@ -12,6 +12,7 @@ plugins=(
     gh 
     docker 
     docker-compose 
+    fzf
     vi-mode 
     web-search 
     zsh-autosuggestions 
