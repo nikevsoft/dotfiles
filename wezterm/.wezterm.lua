@@ -44,7 +44,7 @@ return {
 	-- color_scheme = "Tokyo Night Moon",
 	color_scheme = "Catppuccin Frappe",
 	font = w.font("MonoLisaVariableScript Nerd Font"),
-	font_size = 11,
+	font_size = 14,
 	-- keys = {
 	-- 	-- move between split panes
 	-- 	split_nav("move", "h"),
