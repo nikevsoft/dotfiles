@@ -8,20 +8,10 @@ return {
         all = function()
           C = require("catppuccin.palettes").get_palette("frappe")
           return {
-            NotifyBackground = { bg = C.base },
-            NormalFloat = { bg = C.base },
-            FloatShadow = { bg = C.base },
-            FloatShadowThrough = { bg = C.base },
+            CursorLine = { bg = "NONE", fg = C.flamingo },
+            CursorLineNr = { bg = "NONE", fg = C.flamingo },
           }
         end,
-      },
-      integrations = {
-        aerial = true,
-        harpoon = true,
-        navic = {
-          enabled = true,
-          custom_bg = "NONE",
-        },
       },
     },
   },
