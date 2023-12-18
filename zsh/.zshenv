@@ -4,7 +4,7 @@ export XDG_CACHE_HOME="$XDG_CONFIG_HOME/cache"
 
 export DOTFILES="$HOME/Development/dotfiles"
 
-export EDITOR="nvim"
 export VISUAL="nvim"
+export EDITOR="nvim"
 
 export BROWSER="firefox-developer-edition"
