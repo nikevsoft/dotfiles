@@ -8,6 +8,8 @@ return {
         all = function()
           C = require("catppuccin.palettes").get_palette("frappe")
           return {
+            -- RGB hex value needs to be provided for transparency
+            NotifyBackground = { bg = "#000000" },
             CursorLine = { bg = "NONE", fg = C.flamingo },
             CursorLineNr = { bg = "NONE", fg = C.flamingo },
           }
