@@ -79,6 +79,7 @@ Also enables thumbnails when viewing from Nautilus.
 - Gthumb for pictures
 - Totem for videos
 - Evince for documents
+- Tumbler for thumbnails
 
 ```
 yay -S gthumb totem evince
