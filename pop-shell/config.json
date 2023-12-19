@@ -1,0 +1,11 @@
+{
+  "float": [
+    {
+      "class": "firefox",
+      "title": "^(?!.*Mozilla Firefox).*$",
+      "disabled": true
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false
+}
