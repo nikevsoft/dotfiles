@@ -19,6 +19,7 @@ plug "zap-zsh/vim"
 plug "kutsan/zsh-system-clipboard"
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-completions"
+plug "pkulev/zsh-rustup-completion"
 plug "zsh-users/zsh-syntax-highlighting"
 
 # ls 
