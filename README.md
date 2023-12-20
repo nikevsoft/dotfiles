@@ -1,119 +1,48 @@
 # Linux Configuration
 
-## Gtk Catppuccin Theme
+## Theme
 
-- Configure theme using `gnome-tweaks`
+- Shell: Flat Remix White Dark
+- Icons: Flat Remix Grey Dark
+- Cursor: Qogir Dark
+- Grub: Vimix
 
+```sh
+yay -S flat-remix flat-remix-gnome flat-remix-gtk gdm-settings grub-customizer
 ```
-yay -S gnome-themes-extra gtk-engine-murrine gnome-browser-connector catppuccin-gtk-theme-frappe nordzy-icon-theme nordzy-cursors nerd-fonts-meta apple-fonts 
-```
 
-##  Gnome Extensions
+## Gnome
 
 - User Themes
-- Hide Activities Button
 - Dash to Dock
-
-## Tiling Manager
-
+- GS Connect
+- Pomodoro
 - Pop Shell
+- Auto Move Windows
+- Native Windows Placement
+- Removable Drive Menu
 
-```
-yay -S gnome-shell-extension-pop-shell
-```
-
-After installing, run `configure-pop-shell.sh` to setup shortcuts
-
-```
-./configure-pop-shell.sh
-```
-
-## Stow
-
-```
-yay -S stow
+```sh
+yay -S gnome-shell-extensions gnome-tweaks gnome-shell-extension-dash-to-dock \
+gnome-shell-extension-gsconnect gnome-shell-extension-pop-shell \
+gnome-shell-pomodoro
 ```
 
-Inside the `.dotfiles` run the command to perform symlinks
+## Nautilus
 
-```
-stow bash git starship tmux nvim
-```
+- Pictures: Gthumb
+- Videos: Totem
+- Documents: Evince
+- Thumbnails: Tumbler
 
-## Starship
-
-```
-yay -S starship
-```
-
-## Editor
-
-```
-yay -S neovim
+```sh
+yay -S gthumb totem evince tumbler
 ```
 
-## Tmux
+## Applications
 
-```
-yay -S tmux-plugin-manager
-```
-
-Manually initialize tpm
-
-```
-cd /usr/share/tmux-plugin-manager/scripts/ && ./install_plugins.sh
-```
-
-## Terminal shortcut
-
-| Key      |     Value      |
-| -------- | :------------: |
-| Name     | Gnome Terminal |
-| Command  | gnome-terminal |
-| Shortcut |   Super + T    |
-
-## Gnome Viewers
-
-Also enables thumbnails when viewing from Nautilus.
-
-- Gthumb for pictures
-- Totem for videos
-- Evince for documents
-- Tumbler for thumbnails
-
-```
-yay -S gthumb totem evince
-```
-
-## Other useful commands
-
-### Disable terminal bell for gnome `kgx console`
-
-```
-gsettings set org.gnome.desktop.wm.preferences audible-bell false
-gsettings set org.gnome.desktop.wm.preferences visual-bell false
-```
-
-### Disable switch monitor configurations <Super>p
-Remove shortcut
-```
-gsettings set org.gnome.mutter.keybindings switch-monitor "[]"
-```
-Restore shortcut
-```
-gsettings set org.gnome.mutter.keybindings switch-monitor "['<Super>p']"
-```
-
-## Extra
-
-### Dash-to-dock
-
-Dash to Dock hotkeys overrides the pop-shell `<Super>q`.
-Disable this by going to Extensions Settings > Behaviours > Toggle use shortcut keys
-
-### Dconf-editor
-Use to edit gnome settings with a GUI
-
-```
-yay -S dconf-editor
+```sh
+yay -S zsh kitty neovim ripgrep fzf bat ranger-git python-pillow tmux \
+tldr lazygit trashy-git bitwarden authy starship \
+firefox-developer-edition chromium
 ```
