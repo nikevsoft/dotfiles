@@ -14,12 +14,11 @@ export BROWSER="firefox-developer-edition"
 
 plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
-plug "zap-zsh/completions"
 plug "zap-zsh/fzf"
 plug "zap-zsh/vim"
 plug "kutsan/zsh-system-clipboard"
-plug "MichaelAquilina/zsh-you-should-use"
 plug "zsh-users/zsh-autosuggestions"
+plug "zsh-users/zsh-completions"
 plug "zsh-users/zsh-syntax-highlighting"
 
 # ls 
