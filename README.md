@@ -1,5 +1,7 @@
 # Linux Configuration
 
+![Desktop](desktop.png)
+
 ## Theme
 
 - Shell: Flat Remix White Dark
