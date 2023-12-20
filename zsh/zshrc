@@ -9,6 +9,10 @@ export EDITOR="nvim"
 
 export BROWSER="firefox-developer-edition"
 
+# ls 
+alias la='ls -lAFh'
+alias ll='ls -lFh'
+
 # Zap plugin manager
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 
@@ -22,12 +26,9 @@ plug "zsh-users/zsh-completions"
 plug "pkulev/zsh-rustup-completion"
 plug "zsh-users/zsh-syntax-highlighting"
 
-# ls 
-alias la='ls -lAFh'
-alias ll='ls -lFh'
-
-# Load asdf
+# Load asdf and its completions
 source "$HOME/.asdf/asdf.sh"
+fpath=(${ASDF_DIR}/completions $fpath)
 
 # Load and initialise completion system
 autoload -Uz compinit
