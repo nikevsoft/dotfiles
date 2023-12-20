@@ -25,6 +25,9 @@ plug "zsh-users/zsh-syntax-highlighting"
 alias la='ls -lAFh'
 alias ll='ls -lFh'
 
+# Load asdf
+source "$HOME/.asdf/asdf.sh"
+
 # Load and initialise completion system
 autoload -Uz compinit
 compinit
