@@ -26,9 +26,8 @@ plug "zsh-users/zsh-completions"
 plug "pkulev/zsh-rustup-completion"
 plug "zsh-users/zsh-syntax-highlighting"
 
-# Load asdf and it's completions
-source "$HOME/.asdf/asdf.sh"
-fpath=(${ASDF_DIR}/completions $fpath)
+# Load asdf
+source "/opt/asdf-vm/asdf.sh"
 
 # Load trashy completions
 fpath=(${HOME}/.config/trashy/completions $fpath)
