@@ -29,9 +29,6 @@ plug "zsh-users/zsh-syntax-highlighting"
 # Load asdf
 source "/opt/asdf-vm/asdf.sh"
 
-# Load trashy completions
-fpath=(${HOME}/.config/trashy/completions $fpath)
-
 # Load and initialise completion system
 autoload -Uz compinit
 compinit
