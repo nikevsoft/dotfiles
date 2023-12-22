@@ -1,0 +1,15 @@
+asdf-vm
+authy
+flat-remix
+flat-remix-gnome
+flat-remix-gtk
+gdm-settings
+gnome-shell-extension-dash-to-dock
+gnome-shell-extension-gsconnect
+gnome-shell-extension-pop-shell
+gnome-shell-pomodoro
+lazydocker
+nautilus-open-any-terminal
+ranger-git
+spotx-git
+trash-cli-git
