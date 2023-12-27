@@ -17,6 +17,7 @@ bluez-utils
 btrfs-progs
 cantarell-fonts
 chromium
+code
 cryptsetup
 cups
 cups-browsed
@@ -26,6 +27,7 @@ dconf-editor
 device-mapper
 dhclient
 diffutils
+discord
 dmidecode
 dmraid
 dnsmasq
@@ -90,6 +92,7 @@ gnome-usage
 gnome-weather
 go
 gparted
+gradle
 grub
 grub-customizer
 gsfonts
@@ -122,6 +125,7 @@ libdvdcss
 libgsf
 libopenraw
 libreoffice-fresh
+libsixel
 libwnck3
 linux
 linux-firmware
@@ -216,6 +220,7 @@ upower
 usb_modeswitch
 usbutils
 vi
+vlc
 welcome
 wget
 which

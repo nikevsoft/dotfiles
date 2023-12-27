@@ -1,3 +1,8 @@
+android-apktool
+android-emulator
+android-sdk-cmdline-tools-latest
+android-sdk-platform-tools
+android-studio
 asdf-vm
 authy
 flat-remix
