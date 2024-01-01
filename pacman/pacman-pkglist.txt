@@ -192,6 +192,7 @@ rsync
 rtkit
 rustup
 s-nail
+s-tui
 sg3_utils
 smartmontools
 sof-firmware
