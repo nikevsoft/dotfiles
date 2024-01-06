@@ -19,6 +19,7 @@ gnome-shell-pomodoro
 httptoolkit
 lazydocker
 nautilus-open-any-terminal
+qflipper
 ranger-git
 spotx-git
 trash-cli-git

@@ -181,6 +181,7 @@ python
 python-capng
 python-packaging
 python-pillow
+python-pip
 python-pyqt5
 qbittorrent
 rebuild-detector
