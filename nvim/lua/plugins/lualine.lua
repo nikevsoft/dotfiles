@@ -3,7 +3,8 @@ return {
   opts = function(_, opts)
     opts.options = {
       component_separators = "|",
-      section_separators = "",
+      -- section_separators = "",
+      section_separators = { left = "", right = "" },
     }
 
     -- remove navic
