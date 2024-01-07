@@ -4,17 +4,15 @@ return {
     name = "catppuccin",
     opts = {
       transparent_background = true,
-      highlight_overrides = {
-        all = function()
-          C = require("catppuccin.palettes").get_palette("frappe")
-          return {
-            -- RGB hex value needs to be provided for transparency
-            NotifyBackground = { bg = "#000000" },
-            CursorLine = { bg = "NONE", fg = C.flamingo },
-            CursorLineNr = { bg = "NONE", fg = C.flamingo },
-          }
-        end,
-      },
+      custom_highlights = function(colors)
+        return {
+          NotifyBackground = { bg = "#000000" }, -- notify only takes this coloring
+          CursorLine = { bg = colors.none },
+          CursorLineNr = { bg = colors.none },
+          FloatShadow = { bg = colors.none },
+          FloatShadowThrough = { bg = colors.none },
+        }
+      end,
     },
   },
 
