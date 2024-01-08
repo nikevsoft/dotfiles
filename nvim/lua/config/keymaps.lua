@@ -8,13 +8,6 @@ local Util = require("lazyvim.util")
 vim.keymap.set("i", "jj", "<esc>")
 vim.keymap.set("i", "jk", "<esc>")
 
--- override lazyvim mappings with vim-tmux-navigation mappings
--- vim.keymap.set("n", "<C-h>", "<cmd>TmuxNavigateLeft<cr>", { desc = "Go to left window", remap = true })
--- vim.keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>", { desc = "Go to lower window", remap = true })
--- vim.keymap.set("n", "<C-k>", "<cmd>TmuxNavigateUp<cr>", { desc = "Go to upper window", remap = true })
--- vim.keymap.set("n", "<C-l>", "<cmd>TmuxNavigateRight<cr>", { desc = "Go to right window", remap = true })
--- vim.keymap.set("n", "<C-\\>", "<cmd>TmuxNavigatePrevious<cr>", { desc = "Go to previous window", remap = true })
-
 -- smartsplits
 vim.keymap.set("n", "<A-h>", require("smart-splits").resize_left)
 vim.keymap.set("n", "<A-j>", require("smart-splits").resize_down)
@@ -34,3 +27,11 @@ vim.keymap.set("n", "<leader><leader>l", require("smart-splits").swap_buf_right)
 -- lazydocker
 -- stylua: ignore
 vim.keymap.set("n", "<leader>gd", function() Util.terminal({ "lazydocker" }, { esc_esc = false, ctrl_hjkl = false }) end, { desc = "Lazydocker" })
+
+-- stay in indent mode
+vim.keymap.set("v", "<", "<gv", { silent = true })
+vim.keymap.set("v", ">", ">gv", { silent = true })
+
+-- move block
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move Block Down", silent = true })
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move Block Up", silent = true })
