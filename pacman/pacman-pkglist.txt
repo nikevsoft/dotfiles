@@ -57,6 +57,7 @@ eza
 f2fs-tools
 ffmpegthumbnailer
 file-roller
+firefox
 firefox-developer-edition
 firewalld
 foomatic-db
@@ -205,6 +206,7 @@ sushi
 sysfsutils
 system-config-printer
 systemd-sysvcompat
+telegram-desktop
 texinfo
 thunderbird
 tldr
