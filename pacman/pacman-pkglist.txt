@@ -119,6 +119,7 @@ inxi
 iptables-nft
 iwd
 jfsutils
+jq
 kitty
 lazygit
 less
@@ -201,6 +202,7 @@ sof-firmware
 splix
 spotify-launcher
 starship
+steam
 sudo
 sushi
 sysfsutils
@@ -224,7 +226,9 @@ upower
 usb_modeswitch
 usbutils
 vi
+vim
 vlc
+warpinator
 welcome
 wget
 which

@@ -17,6 +17,7 @@ gnome-shell-extension-gsconnect
 gnome-shell-extension-pop-shell
 gnome-shell-pomodoro
 httptoolkit
+jdownloader2
 lazydocker
 nautilus-open-any-terminal
 nvidia-container-toolkit
@@ -24,5 +25,4 @@ qflipper
 ranger-git
 spotx-git
 trash-cli-git
-xxd-standalone
 zoom
