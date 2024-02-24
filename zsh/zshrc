@@ -9,6 +9,8 @@ export EDITOR="nvim"
 
 export BROWSER="firefox-developer-edition"
 
+export PATH=$PATH:$HOME/go/bin/
+
 # ls 
 alias la='ls -lAFh'
 alias ll='ls -lFh'
