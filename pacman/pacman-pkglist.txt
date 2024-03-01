@@ -12,6 +12,7 @@ bash-completion
 bat
 bind
 bitwarden
+blueprint-compiler
 bluez
 bluez-utils
 btrfs-progs
@@ -40,6 +41,7 @@ duf
 e2fsprogs
 efibootmgr
 efitools
+emacs
 endeavouros-keyring
 endeavouros-mirrorlist
 eos-apps-info
@@ -111,6 +113,7 @@ gvfs-nfs
 gvfs-smb
 haveged
 hdparm
+helix
 htop
 hwdetect
 hwinfo
@@ -142,6 +145,7 @@ man-pages
 mdadm
 meld
 mesa-utils
+meson
 mlocate
 modemmanager
 mtools
@@ -186,6 +190,7 @@ python-pillow
 python-pip
 python-pyqt5
 qbittorrent
+qt5-remoteobjects
 rebuild-detector
 reflector
 reflector-simple

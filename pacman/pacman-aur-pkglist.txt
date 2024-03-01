@@ -7,7 +7,6 @@ android-sdk-platform-tools
 android-studio
 asdf-vm
 authy
-burpsuite
 flat-remix
 flat-remix-gnome
 flat-remix-gtk
@@ -16,7 +15,6 @@ gnome-shell-extension-dash-to-dock
 gnome-shell-extension-gsconnect
 gnome-shell-extension-pop-shell
 gnome-shell-pomodoro
-httptoolkit
 jdownloader2
 lazydocker
 nautilus-open-any-terminal
