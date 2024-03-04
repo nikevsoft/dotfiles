@@ -12,7 +12,6 @@ bash-completion
 bat
 bind
 bitwarden
-blueprint-compiler
 bluez
 bluez-utils
 btrfs-progs
@@ -145,7 +144,6 @@ man-pages
 mdadm
 meld
 mesa-utils
-meson
 mlocate
 modemmanager
 mtools
@@ -190,7 +188,6 @@ python-pillow
 python-pip
 python-pyqt5
 qbittorrent
-qt5-remoteobjects
 rebuild-detector
 reflector
 reflector-simple
@@ -213,11 +210,10 @@ sushi
 sysfsutils
 system-config-printer
 systemd-sysvcompat
-telegram-desktop
 texinfo
-thunderbird
 tldr
 tmux
+torbrowser-launcher
 totem
 ttf-bitstream-vera
 ttf-dejavu
@@ -233,7 +229,6 @@ usbutils
 vi
 vim
 vlc
-warpinator
 welcome
 wget
 which

@@ -1,12 +1,4 @@
-android-apktool
-android-emulator
-android-platform
-android-sdk-build-tools
-android-sdk-cmdline-tools-latest
-android-sdk-platform-tools
-android-studio
 asdf-vm
-authy
 flat-remix
 flat-remix-gnome
 flat-remix-gtk
@@ -17,6 +9,7 @@ gnome-shell-extension-pop-shell
 gnome-shell-pomodoro
 jdownloader2
 lazydocker
+libnvidia-container-tools
 nautilus-open-any-terminal
 nvidia-container-toolkit
 qflipper
