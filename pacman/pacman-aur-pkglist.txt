@@ -15,5 +15,6 @@ nvidia-container-toolkit
 qflipper
 ranger-git
 spotx-git
+streamlink-twitch-gui
 trash-cli-git
 zoom
