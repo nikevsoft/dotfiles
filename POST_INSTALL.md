@@ -284,3 +284,22 @@ AddModule "piper-generic" "sd_generic" "piper-generic.conf"
 # set default module
 DefaultModule piper-generic
 ```
+
+### Hyprland
+
+```sh
+sudo pacman -S --needed \
+hyprland \
+pipewire \
+wireplumber \
+dunst \
+xdg-desktop-portal-hyprland \
+hyprpolkitagent \
+qt5-wayland \
+qt6-wayland \
+rofi \
+waybar \
+ttf-font-awesome \
+brightnessctl \
+playerctl
+```
